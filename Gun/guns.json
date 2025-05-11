@@ -1,0 +1,58 @@
+[
+	{
+		"id": "colt",
+		"damage": 5,
+		"damageType": "physical",
+		"burstInterval": 0.2,
+		"range": 800,
+		"knokback": 0,
+		"cooldown": 3.5,
+		"magazineSize": 3,
+		"pierceCount": 1,
+		"pelletCount": 1,
+		"burstCount": 1,
+		"crit": {
+			"chance": 0.1,
+			"multiplier": 2.0			
+		},
+		"projectile": {
+			"projectileSpeed":600,
+			"projectileSpread":0,
+			"projectileAccuracy":2.5,
+			"projectileSize":4
+		},
+		"textures": {
+			"gun": "colt-m1911.png",
+			"bullet": "bullets-0.png",
+			"keyFrame": 12
+		}
+	},
+	{
+		"id": "ak47",
+		"damage": 4,
+		"damageType": "physical",
+		"burstInterval": 0.5,
+		"range": 1500,
+		"knokback": 0,
+		"cooldown": 3.5,
+		"magazineSize": 9,
+		"pierceCount": 1,
+		"pelletCount": 1,
+		"burstCount": 3,
+		"crit": {
+			"chance": 0.1,
+			"multiplier": 2.0			
+		},
+		"projectile": {
+			"projectileSpeed":900,
+			"projectileSpread":2.5,
+			"projectileAccuracy":1.5,
+			"projectileSize":6
+		},
+		"textures": {
+			"gun": "colt-m1911.png",
+			"bullet": "bullets-0.png",
+			"keyFrame": 12
+		}
+	}
+]
